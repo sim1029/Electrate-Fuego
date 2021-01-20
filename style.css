@@ -6,14 +6,14 @@ body, html {
 
 .hero-image {
   /* This is your "hero image" or "wide image." You will need to change hero.jpg to match your asset*/
-  
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cliff.jpeg");
   height: 100%;
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;      
+  position: relative;
 }
 
 /* Places text in the middle of the image */
@@ -42,11 +42,11 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
 
 /* This code controls that cool parallax image and scrolling effect. Change the image "feet3.jpg" below to match your asset.*/
 /*You can always add more parllax assets on your web document, just follow the directions at the bottom of the index.html.*/
-.parallax-1 { 
-  background-image: url("feet3.jpg");
+.parallax-1 {
+  background-image: url("pitt.jpeg");
 
   /* Set a specific height */
-  height: 500px; 
+  height: 500px;
 
   /* control the parallax scrolling effect */
   background-attachment: fixed;
@@ -83,7 +83,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   .column {
     flex: 50%;
     max-width: 50%;
-}   
+}
 }
 
 /* Preset Image Controls
@@ -100,7 +100,7 @@ This section of css. helps organize images to position and center the image to s
 
 
 
-    /* - Preset Text Block Controls- 
+    /* - Preset Text Block Controls-
 this css. element centers text elements*/
 
 
@@ -111,22 +111,13 @@ this css. element centers text elements*/
   margin: auto;
   width: 50%;
   padding: 100px;
-    font-size: 125%; 
+    font-size: 125%;
 }
 }
-    
+
 @media screen and (max-width: 800px) {
   .textblock {
     margin: auto;
-    padding: 20px;    
+    padding: 20px;
 }
 }
-
-
-    
-
-
-    
-
-
-
